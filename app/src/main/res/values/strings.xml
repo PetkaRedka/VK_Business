@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VK_Business</string>
+    <string name="user_name_string">User name</string>
+    <string name="user_password">Password</string>
+    <string name="sign_in_text">Войти</string>
+    <string name="vk_sign_in_text">Войти через ВКонтакте</string>
+    <string name="forget_password">Забыли пароль?</string>
+    <string name="registration_text">Зарегистрироваться</string>
+</resources>
