@@ -10,6 +10,17 @@
     android:orientation="vertical"
     android:id="@+id/main_layout">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:src="@drawable/vkb_logo"
+        app:civ_border_color="#FF0084"
+        app:civ_border_width="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
         android:layout_width="match_parent"
