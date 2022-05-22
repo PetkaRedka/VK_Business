@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search_view2"
+        android:title="@string/search_label_text"
+        android:icon="@drawable/loopa_black_ico"/>
+
+    <item
+        android:id="@+id/metrick_view2"
+        android:title="@string/metrick_label_text"
+        android:icon="@drawable/graphic_black_ico"/>
+
+    <item
+        android:id="@+id/planer_view2"
+        android:title="@string/planer_label_text"
+        android:icon="@drawable/planer_black_ico"/>
+
+</menu>

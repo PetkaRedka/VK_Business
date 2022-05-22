@@ -7,9 +7,11 @@
     android:background="@drawable/login_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LogginActivity"
+    android:id="@+id/loggin_layout">
 
     <LinearLayout
+        android:id="@+id/main_loggin_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -86,7 +88,7 @@
                 android:layout_weight="0.5"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/forget_password"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -96,8 +98,8 @@
                 android:layout_weight="0.5"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/registration_text"
-                android:textColor="#FF0065"
-                android:textSize="18sp" />
+                android:textColor="#FF0084"
+                android:textSize="14sp" />
 
         </LinearLayout>
 

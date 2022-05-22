@@ -6,4 +6,8 @@
     <string name="vk_sign_in_text">Войти через ВКонтакте</string>
     <string name="forget_password">Забыли пароль?</string>
     <string name="registration_text">Зарегистрироваться</string>
+    <string name="planer_label_text">Планер</string>
+    <string name="search_label_text">Поиск</string>
+    <string name="metricks_label_text">Метрики</string>
+    <string name="metrick_label_text">Метрика</string>
 </resources>

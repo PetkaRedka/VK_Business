@@ -4,13 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.332" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/buttom_navigation_view.xml" value="0.2635" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/button_backround.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/ic_launcher_background.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/login_background.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/login_text_form.xml" value="0.332" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/sign_in_button_backround.xml" value="0.2645" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/vk_sign_in_button_background.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/font/.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_metrick_view2.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_planer2.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view.xml" value="0.259375" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view2.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/loggin_view.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/main_window.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/menu/mobile_navigation.xml" value="0.259375" />
       </map>
     </option>
   </component>
