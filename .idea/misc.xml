@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/buttom_navigation_view.xml" value="0.1235" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/button_border.xml" value="0.236" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/searchview_border.xml" value="0.236" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/fragment_planer2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view2.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/main_window.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/planer_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/planer_calendar.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/menu/mobile_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/menu/search_icon.xml" value="0.253125" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.198" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/buttom_navigation_view.xml" value="0.2635" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/button_backround.xml" value="0.332" />

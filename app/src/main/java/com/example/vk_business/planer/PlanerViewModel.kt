@@ -4,4 +4,6 @@ import androidx.lifecycle.ViewModel
 
 class PlanerViewModel : ViewModel() {
     // TODO: Implement the ViewModel
+
+
 }

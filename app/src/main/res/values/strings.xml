@@ -16,4 +16,8 @@
     <string name="planer_liked_button_text">Понравившиеся</string>
     <string name="planer_add_button_text">Новая публикация</string>
     <string name="add_new_publication_date">Назначьте дату публикации</string>
+    <string name="download_file_button">Загрузить файл публикации</string>
+    <string name="input_text_planer_add">Введите текст публикации...</string>
+    <string name="make_public_button_text">Опубликовать</string>
+    <string name="make_plan_button_text">Запланировать</string>
 </resources>

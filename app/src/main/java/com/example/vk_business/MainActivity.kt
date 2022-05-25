@@ -27,6 +27,7 @@ class MainActivity: LogginActivity() {
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
     }
 
 }
