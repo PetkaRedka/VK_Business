@@ -19,10 +19,10 @@
 
         <ImageView
             android:id="@+id/VKB_image"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="205dp"
+            android:layout_height="207dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/vkb_logo"/>
+            android:src="@drawable/vkb_logo_new_neon" />
 
         <EditText
             android:id="@+id/login_text"
@@ -52,27 +52,36 @@
             android:hint="@string/user_password"
             android:padding="10dp" />
 
-        <Button
+        <com.smb.glowbutton.GlowButton
             android:id="@+id/sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="90dp"
-            android:layout_marginEnd="30dp"
-            android:background="@drawable/sign_in_button_backround"
-            android:text="@string/sign_in_text"
-            android:textColor="@color/white" />
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            app:gb_backgroundColor="@color/vk_purple"
+            app:gb_cornerRadius="15dp"
+            app:gb_glowAnimationDuration="500"
+            app:gb_glowColor="@color/vk_purple"
+            app:gb_rippleAnimationDuration="1500"
+            app:gb_rippleEnabled="true"
+            app:gb_text="ВОЙТИ"
+            app:gb_textColor="@color/white"
+            app:gb_textSize="16dp" />
 
-        <Button
+        <com.smb.glowbutton.GlowButton
+            android:id="@+id/vk_sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="30dp"
-            android:background="@drawable/vk_sign_in_button_background"
-            android:text="@string/vk_sign_in_text"
-            android:textColor="@color/white" />
+            android:layout_marginHorizontal="20dp"
+            app:gb_backgroundColor="@color/vk_blue"
+            app:gb_cornerRadius="15dp"
+            app:gb_glowAnimationDuration="500"
+            app:gb_glowColor="@color/vk_blue"
+            app:gb_rippleAnimationDuration="1500"
+            app:gb_rippleEnabled="true"
+            app:gb_text="ВОЙТИ ЧЕРЕЗ ВКОНТАКТЕ"
+            app:gb_textColor="@color/white"
+            app:gb_textSize="16dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -84,20 +93,29 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="30dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="0.5"
                 android:fontFamily="sans-serif-medium"
+                android:shadowColor="@color/vk_blue"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10"
                 android:text="@string/forget_password"
+                android:textColor="@color/vk_blue"
                 android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="30dp"
                 android:layout_marginEnd="20dp"
                 android:layout_weight="0.5"
                 android:fontFamily="sans-serif-medium"
+                android:shadowColor="@color/vk_purple"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10"
                 android:text="@string/registration_text"
                 android:textColor="#FF0084"
                 android:textSize="14sp" />
