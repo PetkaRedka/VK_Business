@@ -20,4 +20,8 @@
     <string name="input_text_planer_add">Введите текст публикации...</string>
     <string name="make_public_button_text">Опубликовать</string>
     <string name="make_plan_button_text">Запланировать</string>
+    <string name="profile_profile_button_text">Личный кабинет</string>
+    <string name="profile_notifications_button_text">Уведомления</string>
+    <string name="profile_metrick_button_text">Метрики</string>
+    <string name="profile_planer_button_text">Планер</string>
 </resources>

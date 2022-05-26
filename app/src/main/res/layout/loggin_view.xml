@@ -48,6 +48,7 @@
             android:background="@drawable/login_text_form"
             android:drawableStart="@drawable/password_ico_small"
             android:drawablePadding="10dp"
+            android:fontFamily="@font/amaranth"
             android:hint="@string/user_password"
             android:padding="10dp" />
 
