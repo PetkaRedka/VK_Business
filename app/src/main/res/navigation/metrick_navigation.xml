@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/metrick_navigation"
+    app:startDestination="@id/likes_graph_view">
+
+    <fragment
+        android:id="@+id/likes_graph_view"
+        android:name="com.example.vk_business.metrick.likes.likes_graph_fragment"
+        android:label="likes_graph_fragment"
+        tools:layout="@layout/likes_graph_fragment" />
+    <fragment
+        android:id="@+id/budget_graph_view"
+        android:name="com.example.vk_business.metrick.budget.budget_graph_fragment"
+        android:label="budget_graph_fragment"
+        tools:layout="@layout/budget_graph_fragment" />
+    <fragment
+        android:id="@+id/reposts_graph_view"
+        android:name="com.example.vk_business.metrick.reposts.reposts_graph_fragment"
+        android:label="reposts_graph_fragment"
+        tools:layout="@layout/reposts_graph_fragment" />
+    <fragment
+        android:id="@+id/new_peaple_graph_view"
+        android:name="com.example.vk_business.metrick.new_peaple.new_peaple_graph_fragment"
+        android:label="new_peaple_graph_fragment"
+        tools:layout="@layout/new_peaple_graph_fragment" />
+</navigation>

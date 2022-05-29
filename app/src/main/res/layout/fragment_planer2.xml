@@ -37,9 +37,14 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:drawableTop="@drawable/add_publication"
+                    android:drawableTop="@drawable/new_public_neon"
                     android:paddingTop="15dp"
-                    android:text="@string/planer_add_button_text"/>
+                    android:text="@string/planer_add_button_text"
+                    android:textColor="@color/vk_blue_light"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="3"
+                    android:shadowColor="@color/white"/>
 
                 <Button
                     android:id="@+id/planer_calendar_button"
@@ -51,9 +56,14 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:drawableTop="@drawable/calendar"
+                    android:drawableTop="@drawable/calendar_neon"
                     android:paddingTop="15dp"
-                    android:text="@string/planer_calendar_button_text"/>
+                    android:text="@string/planer_calendar_button_text"
+                    android:textColor="@color/vk_blue_light"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="3"
+                    android:shadowColor="@color/white"/>/>
             </TableRow>
 
 
@@ -73,9 +83,14 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:drawableTop="@drawable/saved"
+                    android:drawableTop="@drawable/saved_neon"
                     android:paddingTop="15dp"
-                    android:text="@string/planer_liked_button_text"/>
+                    android:text="@string/planer_liked_button_text"
+                    android:textColor="@color/vk_blue_light"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="3"
+                    android:shadowColor="@color/white"/>/>
 
                 <Button
                     android:id="@+id/planer_empty_button1"

@@ -61,5 +61,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.6.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.github.SMehranB:GlowNeonButton:2.0.1'
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1."
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
 
 }

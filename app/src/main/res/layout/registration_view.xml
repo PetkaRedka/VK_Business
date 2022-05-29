@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_new"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/registration_profile_image"
+        android:layout_width="106dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/somebody_ico"
+        app:civ_border_color="@color/vk_blue_light"
+        app:civ_border_width="4dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/transparent"
+        android:shadowColor="@color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:textSize="24sp"
+        android:text="@string/registration_login_text"
+        android:textColor="@color/vk_green"/>
+
+    <EditText
+        android:id="@+id/registration_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/searchview_border"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="login"
+        android:textColorHint="@color/vk_blue"
+        android:paddingStart="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/vk_blue_light"
+        android:gravity="start"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:shadowColor="@color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:textSize="24sp"
+        android:text="@string/registration_password_text"
+        android:textColor="@color/vk_green"/>
+
+    <EditText
+        android:id="@+id/registration_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/searchview_border"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="password"
+        android:textColorHint="@color/vk_blue"
+        android:paddingStart="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/vk_blue_light"
+        android:gravity="start"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:shadowColor="@color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:textSize="24sp"
+        android:text="@string/registration_photo_text"
+        android:textColor="@color/vk_green"/>
+
+    <com.smb.glowbutton.NeonButton
+        android:id="@+id/profile_settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+
+        android:textSize="20sp"
+        app:nb_cornerRadius="15dp"
+        app:nb_enableAnimationDuration="500"
+        app:nb_gradientEnd="@color/vk_blue_light"
+        app:nb_gradientStart="@color/vk_green"
+        app:nb_text="ЗАГРУЗИТЬ КАРТИНКУ"
+        app:nb_textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/registration_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/green_border"
+            android:text="зарегистрироваться"
+            android:textColor="@color/vk_green"
+            android:drawableStart="@drawable/registrate"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+</LinearLayout>

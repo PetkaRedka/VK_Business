@@ -10,4 +10,6 @@
     <color name="vk_purple">#FF0084</color>
     <color name="vk_blue">#5281B9</color>
     <color name="vk_violet">#811AC7</color>
+    <color name="vk_blue_light">#00EAFF</color>
+    <color name="vk_green">#00DC7F</color>
 </resources>

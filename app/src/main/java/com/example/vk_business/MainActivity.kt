@@ -1,14 +1,16 @@
 package com.example.vk_business
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
-
+import de.hdodenhof.circleimageview.CircleImageView
 
 
 class MainActivity: LogginActivity() {
@@ -16,6 +18,11 @@ class MainActivity: LogginActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_window)
+
+        // Активируем нижнюю панель навигации
+        val toolbar: Toolbar = findViewById(R.id.buttom_nav_toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.hide()
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
@@ -27,6 +34,14 @@ class MainActivity: LogginActivity() {
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        // Зададим кнопке профиля логику на переход на логин экран
+        val profile_button : CircleImageView = findViewById(R.id.profile_image)
+        profile_button.setOnClickListener(){
+
+            val intent = Intent(this@MainActivity, ProfileActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 
