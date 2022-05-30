@@ -32,4 +32,7 @@
     <string name="registration_login_text">ЛОГИН:</string>
     <string name="registration_password_text">ПАРОЛЬ:</string>
     <string name="registration_photo_text">ФОТО ПРОФИЛЯ:</string>
+    <string name="extern_ad">Наружная реклама</string>
+    <string name="sm_ad">Реклама в социальных сетях</string>
+    <string name="tele_ad">Телевизионная реклама</string>
 </resources>

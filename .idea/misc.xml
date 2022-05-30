@@ -21,12 +21,14 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/font/.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/app_bar_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/budget_graph_fragment.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/button_nav_appbar.xml" value="0.259375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_blank4.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_metrick_view2.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_planer2.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view.xml" value="0.259375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view2.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/likes_graph_fragment.xml" value="0.2578125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/list_view_conf.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/loggin_view.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/main_window.xml" value="0.25833333333333336" />
@@ -36,6 +38,7 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/planer_add.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/profile_main.xml" value="0.259375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/registration_view.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/reposts_graph_fragment.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/menu/metrick_graph_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/menu/mobile_navigation.xml" value="0.259375" />
       </map>

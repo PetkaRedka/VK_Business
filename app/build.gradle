@@ -63,5 +63,9 @@ dependencies {
     implementation 'com.github.SMehranB:GlowNeonButton:2.0.1'
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1."
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
+    implementation 'com.github.swapnil1104:CurveGraphView:2.0.2'
+    implementation 'com.github.blackfizz:eazegraph:1.2.5l@aar'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
 
 }

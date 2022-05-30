@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 
-    <item
-        android:id="@+id/likes_graph_view"
-        android:title="@string/likes_nav_text"
-        android:icon="@drawable/loopa_black_ico"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/likes_graph_view"
+            android:title="@string/likes_nav_text"
+            android:icon="@drawable/loopa_black_ico"/>
 
-    <item
-        android:id="@+id/budget_graph_view"
-        android:title="@string/budget_nav_text"
-        android:icon="@drawable/graphic_black_ico"/>
+        <item
+            android:id="@+id/budget_graph_view"
+            android:title="@string/budget_nav_text"
+            android:icon="@drawable/graphic_black_ico"/>
 
-    <item
-        android:id="@+id/reposts_graph_view"
-        android:title="@string/reposts_nav_text"
-        android:icon="@drawable/planer_black_ico"/>
+        <item
+            android:id="@+id/reposts_graph_view"
+            android:title="@string/reposts_nav_text"
+            android:icon="@drawable/planer_black_ico"/>
 
-    <item
-        android:id="@+id/new_peaple_graph_view"
-        android:title="@string/new_peaple_nav_text"
-        android:icon="@drawable/planer_black_ico"/>
+        <item
+            android:id="@+id/new_peaple_graph_view"
+            android:title="@string/new_peaple_nav_text"
+            android:icon="@drawable/planer_black_ico"/>
+    </group>
 
 
 </menu>

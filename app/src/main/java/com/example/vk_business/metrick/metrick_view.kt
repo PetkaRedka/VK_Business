@@ -2,10 +2,13 @@ package com.example.vk_business.metrick
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
+import android.view.Gravity
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.widget.Toolbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
@@ -34,8 +37,16 @@ class metrick_view : Fragment(){
     ): View? {
 
 
+
         val v: View = inflater.inflate(R.layout.fragment_metrick_view2, container, false)
-        val navView: BottomNavigationView = v.findViewById(R.id.metrick_navigation_view)
+
+        val drawerLayout: DrawerLayout = v.findViewById(R.id.drawer_layout)
+        val options_button: ImageButton = v.findViewById(R.id.metrick_options_button)
+        options_button.setOnClickListener(){
+            drawerLayout.openDrawer(Gravity.LEFT)
+        }
+
+        val navView: NavigationView = v.findViewById(R.id.metrick_nav_view)
         val navController = findNavController()
         val appBarConfiguration = AppBarConfiguration(setOf(
                     R.id.likes_graph_view,

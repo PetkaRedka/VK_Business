@@ -1,31 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".metrick.metrick_view">
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/metrick_navigation_view"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:menu="@menu/metrick_graph_menu"
-        app:itemIconTint="@drawable/buttom_navigation_view"
-        app:itemTextColor="@drawable/buttom_navigation_view"
-        android:background="@android:color/transparent"
-        app:elevation="0dp" />
+        android:layout_height="match_parent">
 
-    <fragment
-        android:id="@+id/metrick_nav_host_fragmen"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
+        <ImageButton
+            android:id="@+id/metrick_options_button"
+            android:layout_width="76dp"
+            android:layout_height="64dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/options"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <fragment
+            android:id="@+id/metrick_nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navGraph="@navigation/metrick_navigation" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/metrick_nav_view"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:navGraph="@navigation/metrick_navigation" />
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/metrick_nav_header"
+        app:menu="@menu/metrick_graph_menu" />
 
-
-</RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
