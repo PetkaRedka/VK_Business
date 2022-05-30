@@ -1,26 +1,18 @@
 package com.example.vk_business.metrick
 
-import androidx.lifecycle.ViewModelProvider
+import android.app.FragmentTransaction
 import android.os.Bundle
-import android.view.Gravity
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import android.widget.Button
 import android.widget.ImageButton
-import androidx.appcompat.widget.Toolbar
-import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.example.vk_business.R
-import com.google.android.material.navigation.NavigationView
-import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.vk_business.metrick.budget.budget_graph_fragment
+import com.example.vk_business.metrick.likes.likes_graph_fragment
+import com.example.vk_business.metrick.new_peaple.new_peaple_graph_fragment
+import com.example.vk_business.metrick.reposts.reposts_graph_fragment
 
 
 class metrick_view : Fragment(){
@@ -40,22 +32,43 @@ class metrick_view : Fragment(){
 
         val v: View = inflater.inflate(R.layout.fragment_metrick_view2, container, false)
 
-        val drawerLayout: DrawerLayout = v.findViewById(R.id.drawer_layout)
-        val options_button: ImageButton = v.findViewById(R.id.metrick_options_button)
-        options_button.setOnClickListener(){
-            drawerLayout.openDrawer(Gravity.LEFT)
+
+        val butt_1: Button = v.findViewById(R.id.butt_1)
+        val butt_2: Button = v.findViewById(R.id.butt_2)
+        val butt_3: Button = v.findViewById(R.id.butt_3)
+        val butt_4: Button = v.findViewById(R.id.butt_4)
+
+        butt_1.setOnClickListener(){
+
+            val fragment: Fragment = likes_graph_fragment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.contentFragment, fragment)?.commit()
+
         }
 
-        val navView: NavigationView = v.findViewById(R.id.metrick_nav_view)
-        val navController = findNavController()
-        val appBarConfiguration = AppBarConfiguration(setOf(
-                    R.id.likes_graph_view,
-                    R.id.budget_graph_view,
-                    R.id.reposts_graph_view,
-                    R.id.new_peaple_graph_view
-        ))
-        setupActionBarWithNavController(activity as AppCompatActivity, navController, appBarConfiguration)
-        navView.setupWithNavController(navController)
+        butt_2.setOnClickListener(){
+
+            val fragment: Fragment = budget_graph_fragment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.contentFragment, fragment)?.commit()
+
+        }
+
+        butt_3.setOnClickListener(){
+
+            val fragment: Fragment = reposts_graph_fragment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.contentFragment, fragment)?.commit()
+
+        }
+
+        butt_4.setOnClickListener(){
+
+            val fragment: Fragment = new_peaple_graph_fragment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.contentFragment, fragment)?.commit()
+
+        }
 
         return v
     }
@@ -65,5 +78,6 @@ class metrick_view : Fragment(){
         viewModel = ViewModelProvider(this).get(MetrickViewViewModel::class.java)
         // TODO: Use the ViewModel
     }
+
 
 }

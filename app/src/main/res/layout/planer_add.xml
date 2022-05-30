@@ -11,11 +11,13 @@
 
    <ImageView
        android:id="@+id/image_add_new_publication"
-       android:layout_width="match_parent"
+       android:layout_width="wrap_content"
        android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
        android:src="@drawable/empty_foto"
        android:layout_marginBottom="25dp"
-       android:layout_marginTop="50dp"/>
+       android:layout_marginTop="50dp"
+       android:scaleType="fitCenter"/>
 
     <com.smb.glowbutton.NeonButton
         android:id="@+id/file_new_publication_button"

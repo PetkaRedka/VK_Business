@@ -17,30 +17,26 @@
             android:text="@string/greetings_text"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-            android:layout_marginTop="115dp"
-            android:textColor="@color/vk_blue"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/vk_blue_light"
+            android:shadowColor="@color/white"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3"
             android:fontFamily="sans-serif-medium"
             android:textSize="18sp"/>
 
         <SearchView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginEnd="40dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="22dp"
             android:layout_marginTop="25dp"
             android:layout_gravity="center_horizontal"
             android:id="@+id/search_video_line"
             android:fontFamily="@font/amaranth"
-            android:searchIcon="@drawable/loopa_ico"
-            android:background="@drawable/searchview_border"
-            android:padding="10dp" />
-
-        <ListView
-            android:id="@+id/search_video_list"
-            android:layout_width="match_parent"
-            android:layout_height="388dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginEnd="40dp" />
+            android:padding="10dp"
+            android:background="@drawable/green_border"/>
 
 
     </LinearLayout>

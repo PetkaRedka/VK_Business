@@ -29,6 +29,7 @@
         <activity android:name=".planer.New_public_activity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".RegistrationActivity" />
+        <activity android:name=".QAActivity" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

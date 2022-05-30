@@ -34,7 +34,7 @@ class reposts_graph_fragment : Fragment() {
         curveGraphView.configure(
             CurveGraphConfig.Builder(activity as AppCompatActivity)
                 .setAxisColor(R.color.vk_violet)                                             // Set X and Y axis line color stroke.
-                .setIntervalDisplayCount(7)                                             // Set number of values to be displayed in X ax
+                .setIntervalDisplayCount(0)                                             // Set number of values to be displayed in X ax
                 .setGuidelineCount(2)                                                   // Set number of background guidelines to be shown.
                 .setGuidelineColor(R.color.vk_blue_light)                                 // Set color of the visible guidelines.
                 .setNoDataMsg(" No Data ")                                              // Message when no data is provided to the view.

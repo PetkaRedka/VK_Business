@@ -37,14 +37,6 @@ class MainActivity: LogginActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        navController.addOnDestinationChangedListener { _, destination, _ ->
-            if(destination.id == R.id.metrick_view2) {
-               navView.visibility = View.GONE
-            } else {
-                navView.visibility = View.VISIBLE
-            }
-        }
-
         // Зададим кнопке профиля логику на переход на логин экран
         val profile_button : CircleImageView = findViewById(R.id.profile_image)
 

@@ -3,44 +3,58 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Admin/.gradle/caches/transforms-3/cf4850cc3d10464a4f0bcd0be678aafc/transformed/jetified-GlowNeonButton-2.0.1/res/drawable/outline_thumb_up_24.xml" value="0.2645" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/buttom_navigation_view.xml" value="0.1235" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/button_border.xml" value="0.236" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/green_border.xml" value="0.202" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/green_border_white_back.xml" value="0.202" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/login_background.xml" value="0.2015" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/pink_border.xml" value="0.202" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/profile_background.xml" value="0.2015" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/drawable/searchview_border.xml" value="0.236" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/budget_graph_fragment.xml" value="0.264" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/fragment_metrick_view2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/fragment_planer2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view2.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/green_border_white_back.xml" value="0.253125" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/likes_graph_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/loggin_view.xml" value="0.264" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/main_window.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/new_peaple_graph_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/planer_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/planer_calendar.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/profile_main.xml" value="0.264" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/qa.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/reposts_graph_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/layout/text_for_text_list.xml" value="0.253125" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/menu/mobile_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/menu/search_icon.xml" value="0.253125" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.198" />
+        <entry key="..\:/Android/StudioProjects/VK_Business/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1235" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/buttom_navigation_view.xml" value="0.2635" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/button_backround.xml" value="0.332" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/button_border.xml" value="0.2645" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/green_border.xml" value="0.2845" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/ic_launcher_background.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/login_background.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/login_text_form.xml" value="0.332" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/neon_profile_background.xml" value="0.295" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/profile_background.xml" value="0.2645" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/profile_button_shadows.xml" value="0.2645" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/searchview_border.xml" value="0.2645" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/sign_in_button_backround.xml" value="0.2645" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/drawable/vk_sign_in_button_background.xml" value="0.332" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/font/.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/app_bar_layout.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/budget_graph_fragment.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/button_nav_appbar.xml" value="0.259375" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_blank4.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_metrick_view2.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_planer2.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view.xml" value="0.259375" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view2.xml" value="0.25" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/likes_graph_fragment.xml" value="0.2578125" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/list_view_conf.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/loggin_view.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/loggin_view.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/main_window.xml" value="0.25833333333333336" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/metrick_nav_appbar.xml" value="0.4282238442822384" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/metrick_nav_header.xml" value="0.365625" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/new_peaple_graph_fragment.xml" value="0.259375" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/planer_add.xml" value="0.33" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/profile_main.xml" value="0.259375" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/registration_view.xml" value="0.22" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/layout/reposts_graph_fragment.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/menu/metrick_graph_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/VK_Business/app/src/main/res/menu/mobile_navigation.xml" value="0.259375" />
+        <entry key="..\:/Users/Admin/StudioProjects/VK_Business/app/src/main/res/drawable/button_border.xml" value="0.332" />
+        <entry key="..\:/Users/Admin/StudioProjects/VK_Business/app/src/main/res/drawable/buttonshape.xml" value="0.332" />
+        <entry key="..\:/Users/Admin/StudioProjects/VK_Business/app/src/main/res/layout/fragment_metrick_view2.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/Admin/StudioProjects/VK_Business/app/src/main/res/layout/fragment_planer2.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/StudioProjects/VK_Business/app/src/main/res/layout/fragment_search_view2.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/Admin/StudioProjects/VK_Business/app/src/main/res/layout/loggin_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Admin/StudioProjects/VK_Business/app/src/main/res/layout/main_window.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/StudioProjects/VK_Business/app/src/main/res/layout/planer_calendar.xml" value="0.25" />
       </map>
     </option>
   </component>

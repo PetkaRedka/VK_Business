@@ -11,12 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="80dp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardViewGraph"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="170dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
@@ -90,7 +90,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tele_ad"
+                            android:text="Потраченный бюджет"
                             android:textSize="12sp"
                             android:paddingLeft="10dp"/>
 
@@ -113,7 +113,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/sm_ad"
+                            android:text="Таргетированная"
                             android:textSize="12sp"
                             android:paddingLeft="10dp"/>
 
@@ -133,7 +133,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/extern_ad"
+                            android:text="Бартерная"
                             android:textSize="12sp"
                             android:paddingLeft="10dp"/>
 
@@ -147,29 +147,29 @@
 
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/details"
             android:layout_width="match_parent"
-            android:layout_height="260dp"
+            android:layout_height="250dp"
             android:layout_below="@+id/cardViewGraph"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
             android:elevation="10dp"
-            app:cardCornerRadius="10dp"
-            android:id="@+id/details">
+            app:cardCornerRadius="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="272dp"
+                android:layout_height="250dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:text="Бюджет, выделенный на рекламу:"
-                    android:textSize="23sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <View
@@ -228,7 +228,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
-                        android:text="@string/tele_ad"
+                        android:text="Потраченный бюджет"
                         android:textSize="18sp" />
 
 
@@ -265,7 +265,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
-                        android:text="@string/sm_ad"
+                        android:text="Таргетированная реклама"
                         android:textSize="18sp" />
 
                     <TextView
@@ -301,7 +301,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
-                        android:text="@string/extern_ad"
+                        android:text="Бартерная реклама"
                         android:textSize="18sp" />
 
                     <TextView

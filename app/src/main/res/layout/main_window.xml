@@ -20,7 +20,7 @@
         android:id="@+id/profile_image"
         android:layout_width="66dp"
         android:layout_height="65dp"
-        android:src="@drawable/somebody_ico"
+        android:src="@drawable/zhena"
         app:civ_border_color="@color/vk_blue_light"
         app:civ_border_width="2dp"
         android:layout_marginStart="10dp"

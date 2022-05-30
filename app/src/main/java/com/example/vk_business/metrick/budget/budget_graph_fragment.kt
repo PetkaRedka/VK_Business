@@ -34,11 +34,11 @@ class budget_graph_fragment : Fragment() {
 
         val v:View = inflater.inflate(R.layout.budget_graph_fragment, container, false)
 
-        val tvR: TextView = v.findViewById(R.id.tvR);
-        val tvPython: TextView = v.findViewById(R.id.tvPython);
-        val tvCPP: TextView = v.findViewById(R.id.tvCPP);
-        val tvJava: TextView = v.findViewById(R.id.tvJava);
-        val pieChart: PieChart = v.findViewById(R.id.piechart);
+        tvR = v.findViewById(R.id.tvR);
+        tvPython = v.findViewById(R.id.tvPython);
+        tvCPP = v.findViewById(R.id.tvCPP);
+        tvJava = v.findViewById(R.id.tvJava);
+        pieChart = v.findViewById(R.id.piechart);
 
         setData();
 
@@ -57,7 +57,7 @@ class budget_graph_fragment : Fragment() {
         pieChart.addPieSlice(
             PieModel(
                 "Неосвоенный бюджет", tvR.getText().toString().toFloat(),
-                Color.parseColor("#aaa")
+                Color.parseColor("#AAAAAA")
             )
         )
         pieChart.addPieSlice(

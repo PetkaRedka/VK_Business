@@ -23,7 +23,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="80dp"
-            android:src="@drawable/somebody_ico"
+            android:src="@drawable/zhena"
             app:civ_border_color="@color/vk_blue_light"
             app:civ_border_width="4dp"
             tools:ignore="MissingConstraints" />
@@ -116,7 +116,7 @@
             app:nb_enableAnimationDuration="500"
             app:nb_gradientEnd="@color/vk_purple"
             app:nb_gradientStart="@color/vk_purple"
-            app:nb_text="@string/profile_settings_button"
+            app:nb_text="Q &amp; A"
             app:nb_textStyle="normal" />
 
     </LinearLayout>

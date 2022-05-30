@@ -8,7 +8,20 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="@+id/likes_graph"
+            app:layout_constraintStart_toStartOf="@+id/likes_graph"
+            android:layout_marginBottom="40dp"
+            android:text="Статистика за месяц (лайки)"
+            android:textSize="20sp"/>
 
         <com.broooapps.graphview.CurveGraphView
             android:id="@+id/likes_graph"
