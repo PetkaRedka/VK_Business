@@ -5,17 +5,18 @@ import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import android.widget.Toast
 
-class DB_Helper_LAP(context: Context, factory: SQLiteDatabase.CursorFactory?) :
+class DB_Helper_LAP(var context: Context, factory: SQLiteDatabase.CursorFactory?) :
     SQLiteOpenHelper(context, DATABASE_NAME, factory, DATABASE_VERSION) {
 
     // Создаем таблицу
     override fun onCreate(db: SQLiteDatabase) {
 
         val query = ("CREATE TABLE " + TABLE_NAME + " ("
-                + ID_COL + " INTEGER PRIMARY KEY, " +
-                LOGIN_COL + " TEXT," +
-                PASS_COL + " TEXT" +
+                + ID_COL + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                LOGIN_COL + " TEXT, " +
+                PASS_COL + " TEXT, " +
                 IMAGE_PATH_COL + " TEXT" + ")")
 
         db.execSQL(query)
@@ -39,7 +40,9 @@ class DB_Helper_LAP(context: Context, factory: SQLiteDatabase.CursorFactory?) :
 
         // Объявляем ДБ под запись
         val db = this.writableDatabase
-        db.insert(TABLE_NAME, null, values)
+        var result = db.insert(TABLE_NAME, null, values)
+        if (result == -1.toLong()){
+            Toast.makeText(context, "Что-то не так (БД)!", Toast.LENGTH_LONG).show()}
 
         // Закрываем
         db.close()
@@ -59,7 +62,7 @@ class DB_Helper_LAP(context: Context, factory: SQLiteDatabase.CursorFactory?) :
     companion object{
         // Основные данные для таблицы
         private val DATABASE_NAME = "LOG_AND_PASS"
-        private val DATABASE_VERSION = 1
+        private val DATABASE_VERSION = 100
         val TABLE_NAME = "lap_table"
         val ID_COL = "id"
         val LOGIN_COL = "login"

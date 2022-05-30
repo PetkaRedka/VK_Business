@@ -2,8 +2,10 @@ package com.example.vk_business
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import androidx.appcompat.widget.Toolbar
+import androidx.core.net.toUri
 import androidx.core.view.isVisible
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -35,11 +37,25 @@ class MainActivity: LogginActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            if(destination.id == R.id.metrick_view2) {
+               navView.visibility = View.GONE
+            } else {
+                navView.visibility = View.VISIBLE
+            }
+        }
+
         // Зададим кнопке профиля логику на переход на логин экран
         val profile_button : CircleImageView = findViewById(R.id.profile_image)
+
+        // Открываем БД и ставим картинку, если необходимо
+//        val image_path:String = intent.getStringExtra("image_path").toString()
+//        profile_button.setImageURI(image_path.toUri())
+
         profile_button.setOnClickListener(){
 
             val intent = Intent(this@MainActivity, ProfileActivity::class.java)
+//            intent.putExtra("image_path", image_path)
             startActivity(intent)
         }
 

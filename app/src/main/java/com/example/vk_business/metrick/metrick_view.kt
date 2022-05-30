@@ -33,9 +33,7 @@ class metrick_view : Fragment(){
         savedInstanceState: Bundle?
     ): View? {
 
-        // Спрячем прошлый NavigationBar
 
-        // Gjrf
         val v: View = inflater.inflate(R.layout.fragment_metrick_view2, container, false)
         val navView: BottomNavigationView = v.findViewById(R.id.metrick_navigation_view)
         val navController = findNavController()

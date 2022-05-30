@@ -6,13 +6,14 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.mvp.handyopinion.URIPathHelper
 import com.smb.glowbutton.NeonButton
 import de.hdodenhof.circleimageview.CircleImageView
 
 class RegistrationActivity: Activity() {
 
     val REQUEST_CODE = 1
-    var imageURI= "default"
+    var image_path= "default"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,7 +37,7 @@ class RegistrationActivity: Activity() {
                 val login = login_et.text.toString()
                 val pass = pass_et.text.toString()
                 val db = DB_Helper_LAP(this, null)
-                db.addPerson(login, pass, imageURI)
+                db.addPerson(login, pass, image_path)
 
                 // Сообщаем об успешной регистрации пользователя
                 Toast.makeText(this, login + " успешно зарегистрирован!", Toast.LENGTH_LONG).show()
@@ -64,7 +65,7 @@ class RegistrationActivity: Activity() {
             val profile_image: CircleImageView = findViewById(R.id.registration_profile_image)
             profile_image.setImageURI(data?.data) // handle chosen image
 
-            imageURI = data.toString()
+            image_path = data?.data.toString()
 
         }
     }

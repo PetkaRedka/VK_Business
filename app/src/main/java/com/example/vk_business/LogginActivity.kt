@@ -77,16 +77,16 @@ open class LogginActivity : AppCompatActivity() {
                 // Проверим, существует ли такой человечек в базе
                 val db = DB_Helper_LAP(this, null)
                 val cursor = db.getPerson()
-                val login = "login"
-                val pass = "password"
+                var login = "login"
+                var pass = "password"
 
                 try{
                     cursor!!.moveToFirst()
-                    val login = cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.LOGIN_COL))
-                    val pass = cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.PASS_COL))
+                    login = cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.LOGIN_COL))
+                    pass = cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.PASS_COL))
                 }
                 catch (e: Exception){
-                    Toast.makeText(this, "Не один пользователь не заристрирован!", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "Не один пользователь не зарегистрирован!", Toast.LENGTH_LONG).show()
                     return@setOnClickListener
                 }
 
@@ -94,17 +94,19 @@ open class LogginActivity : AppCompatActivity() {
 
                     if (login_et.text.toString() == login && password_et.text.toString() == pass){
 
-                        cursor.close()
                         val intent = Intent(this@LogginActivity, MainActivity::class.java)
+//                        intent.putExtra("image_path", cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.IMAGE_PATH_COL)))
                         startActivity(intent)
+                        cursor.close()
+                        return@setOnClickListener
                     }
 
-                    val login = cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.LOGIN_COL))
-                    val pass = cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.PASS_COL))
+                    login = cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.LOGIN_COL))
+                    pass = cursor.getString(cursor.getColumnIndex(DB_Helper_LAP.PASS_COL))
 
                 }
 
-                Toast.makeText(this, "Неправильые логин и пароль.\nВозможно пользователь не заристрирован!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Неправильые логин и пароль.\nВозможно пользователь не зарегистрирован!", Toast.LENGTH_LONG).show()
                 cursor.close()
             }
 
